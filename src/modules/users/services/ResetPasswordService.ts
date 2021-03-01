@@ -3,8 +3,8 @@ import { isAfter, addHours } from 'date-fns';
 
 import AppError from '@shared/errors/AppError';
 import IUsersRepository from '../repositories/IUserRepositories';
-import IUserTokensRepository from '../infra/typeorm/repositories/IUserTokensRepository';
 import IHashProvider from '../providers/HashProvider/models/IHashProvider';
+import IUserTokensRepository from '../repositories/IUserTokensRepository';
 
 
 interface IRequest {
